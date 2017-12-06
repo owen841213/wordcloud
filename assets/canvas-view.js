@@ -153,7 +153,7 @@ CanvasView.prototype.handleHover = function cv_handleHover(item,
   this.hoverDimension = dimension;
 
   this.hoverLabelElement.setAttribute(
-    'data-l10n-args', JSON.stringify({ word: item[0], count: item[1] }));
+    'data-l10n-args', JSON.stringify({ word: '文字雲', count: item[1] }));
   __(this.hoverLabelElement);
 };
 CanvasView.prototype.drawIdleCloud = function cv_drawIdleCloud() {
